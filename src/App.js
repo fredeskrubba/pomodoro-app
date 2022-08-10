@@ -1,12 +1,12 @@
-import "./components/header.js"
-import Header from './components/header.js';
+import "./components/Nav.js"
+import Nav from './components/Nav.js';
 
 
 
 function App() {
   return (
     <div className="App">
-        <Header/>
+        <Nav headline="Fredes Pomodoro"/>
     </div>
   );
 }
